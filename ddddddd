@@ -1,0 +1,87 @@
+ <!--<nav>
+            <h1>Welcome to My Portfolio</h1>
+          <ul>
+             <li><a href="#Home">Home</a></li>
+             <li><a href="#About">About</a></li>
+             <li><a href="#Projects">Projects</a></li>
+             <li><a href="#Contact">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="header">
+      <div class="container">
+        <nav>
+            <img src="images/sal.jpg" class="logo">
+            
+          <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">About</a></li>
+             <li><a href="#">Projects</a></li>
+             <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section id="Home" class="content">
+        
+            <img src="images/sal.jpg" alt="profile picture" style="width: 150px; height: 150;border-radius: 50%;>
+             </section>
+    
+     <!--HOME-->
+     <!--<section id="Home">
+        <h2>Home</h2>
+        <p>Hello,I'm Salma Ali</p>
+   
+    </section>
+
+<!--about-->
+<!--<section id="about">
+    <h2>About</h2>
+    <p>Hello! I'm a dedicdted and enthusiastic full-stack Developer </p>
+    <p>I have a strong foundation in front-end  and back-end development</p>
+    <p>Skills:</p>
+    <ul>
+        <li>Typescript ,Html ,CSS, Python, javascript</li>
+        <li>React, Node.js, Next.js</li>
+        <li>git, Docker, colba</li>
+    </ul>
+</section>
+
+<!--project-->
+<!--<section id="projects">
+    <h2>Projects</h2>
+    <p><a href="https://github.com/salma6020/simple-calculator.git">project1</a></p>
+    <p><a href="https://github.com/salma6020/cli-number-guess.git">project2</a></p>
+    <p><a href="https://github.com/salma6020/sales-dashboard.git">project3</a></p>
+    
+</section>
+ <!--contact-->
+<!--<section id="contact">
+    <h2>Contact</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="type" id="email" name="email" required>
+        <label for="phone">Phone:</label>
+        <input type="phone" id="phone" name="phone" required>
+        <label for="Adress">Adress:</label>
+        <input type="type" id="Adress" name="Adress" required>
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+
+    </header>
+    
+    <!--img-->
+           <div class="header-content"><img src="images/sal.jpg" alt="Salma Ali styles=" border-radius: 50%; width="150px; height: 150px"></div>
+     <!--home-->
+           <section id="Home">
+        <h2>Home</h2>
+        <p>Hello,I'm Salma Ali</p>
+    </section>
+    <!--about-->
+    <section id="about">
+        <h2>About</h2>
+        <p>I'm Salma Ali a dedicdted and enthusiastic full-stack Developer</p>
+        <p>i have a strong foundation in front-end technologies like</p>
+        <p>HTML,CSS,JavaScript,python,typescript</p>
+    </section>
+   <!--project-->
+    <section id="projects">
+        <h2>Projects</h2>
+        <p></p>
+    </section>
+     <!--contact-->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="phone" id="phone" name="phone" required>
+            <label for="Adress">Adress:</label>
+            <input type="Adress" id="Adress" name="Adress" required>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
